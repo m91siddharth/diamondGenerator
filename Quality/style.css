@@ -1,0 +1,210 @@
+body{
+margin-top:0px;
+margin-left:0px;
+margin-bottom:0px;
+margin-right:0px;
+background-color:#a1a1a1;
+}
+.whitetext{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: white;
+font-weight:none;
+text-decoration: none;}
+
+.blacktext{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: black;
+font-weight:bold;
+text-decoration: none;}
+
+.blacktextbig{
+color:#ffffff;
+font-family:Arial, Helvetica, sans-serif;
+font-size:15px;
+font-weight:bold;
+text-decoration:none;
+}
+.whitetextlink{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: white;
+font-weight:bold;
+text-decoration: none;}
+
+.whitetextlink:visited{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: white;
+font-weight:bold;
+text-decoration: none;}
+
+.whitetextlink:hover{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#0bfffc;
+font-weight:bold;
+text-decoration: none;}
+
+.textnew{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#000000;
+font-weight:none;
+text-decoration: none;}
+
+.textnew:visited{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: #000000;
+font-weight:none;
+text-decoration: none;}
+
+.textnew:hover{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: #ff0000;
+font-weight:none;
+text-decoration: none;}
+
+.text1{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#000000;
+font-weight:none;
+text-decoration: none;}
+
+.text2{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: #939393;
+font-weight:none;
+text-decoration: none;}
+
+.redtext{
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+color: #db0d0d;
+font-weight:bold;
+text-decoration: none;}
+
+.bigbluetext{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+color: #0071db;
+font-weight:bold;
+text-decoration: underline;}
+
+/******************Form***************/
+
+input, textarea, select { padding:4px; border:1px solid #c9c9c9; font:12px Arial, Verdana, Helvetica, sans-serif; background: #fff url(../images/background-input.gif) no-repeat 0 0; }
+input:hover, textarea:hover, select:hover,
+input:focus, textarea:focus, select:focus { border: 1px solid #aaa; background-position: 0 -400px; }
+input.triple-length, textarea.triple-length, select.triple-length { width:300px; }
+
+
+/******************Formfinish***************/
+
+
+/******************menu***************/
+
+.glossymenu
+{
+margin: 5px 0;
+padding: 0;
+width: 205px; /*width of menu*/
+border: 1px solid #fff;
+border-bottom-width: 0;
+
+
+}
+
+.glossymenu a.menuitem{
+background: black url(../images/glossyback.gif) repeat-x bottom left;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color: #0c4578;
+display: block;
+font-weight:bold;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: auto;
+padding: 7px 0;
+padding-left: 10px;
+text-decoration: none;
+
+
+}
+
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+color: #0c4578;
+
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: absolute;
+top: 5px;
+right: 5px;
+border: none;
+}
+
+.glossymenu a.menuitem:hover{
+background-image: url(../images/glossyback.gif);
+
+
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+background: #f7f7f7;
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.glossymenu div.submenu ul li{
+border-bottom: 1px solid #c4c4c4;
+}
+
+.glossymenu div.submenu ul li a{
+display: block;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px; 
+color: #2e86df;
+text-decoration: none;
+padding: 2px 0;
+padding-left: 15px;
+}
+
+.glossymenu div.submenu ul li a:hover{
+background: #dfdfdf;
+color: #042431;
+}
+
+/******************menufinish***************/
+
+.map {
+	float:right;
+	margin-top:-370px;}
+	
+	
+	/*===========================28/12/15==============================*/
+	
+table.right-side {
+    float: right;
+    margin-top: -269px;
+    margin-right: 21px;
+	 border: 1px solid #999;
+    background-color: #F9F8F8;
+}
+td.oilseal-pumpset {
+    width: 100%;
+    float: left;
+   /* padding-left: 15px;*/
+}
+td.pumpsetdc {
+    padding-right: 20px;
+}
